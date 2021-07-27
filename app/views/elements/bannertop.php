@@ -1,3 +1,3 @@
 <div class="row">
-    <h1>Top Section</h1>
+    <h1 class="text-center">Top Section</h1>
 </div>

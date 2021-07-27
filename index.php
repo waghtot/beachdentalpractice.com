@@ -18,6 +18,7 @@
         <?php 
           require_once('app/views/elements/bannertop.php');
           require_once('app/views/elements/carousel.php');
+          require_once('app/views/elements/bannerbottom.php');
         ?>
     </div>
     <div class="container-fluid">
