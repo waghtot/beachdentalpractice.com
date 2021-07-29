@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="app/views/css/bdp.css" rel="stylesheet">
 
     <title>beachroad</title>
   </head>
@@ -16,7 +17,7 @@
     ?>
     <div class="container">
         <?php 
-          require_once('app/views/elements/bannertop.php');
+          // require_once('app/views/elements/bannertop.php');
           require_once('app/views/elements/carousel.php');
           require_once('app/views/elements/bannerbottom.php');
         ?>
