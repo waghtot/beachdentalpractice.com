@@ -1,0 +1,28 @@
+.vspace-1010{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.vspace-2020{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.vspace-4020{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.vspace-4000{
+    margin-top:40px;
+    margin-bottom:0px;
+}
+
+.vspace-4040{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.border-top{
+    border-top:1px solid #ff9600 !important;
+}

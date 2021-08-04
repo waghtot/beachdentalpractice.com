@@ -1,5 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family:"Lato";
+    font-weight: 300;
+}
+
 .navbar-bdp{
     border-bottom: #ff9600 solid 3px;
     padding-top:20px;
     padding-bottom:20px;
+}
+
+.uppercase, .clock-label{
+    text-transform: uppercase;
+}
+
+.no-border{
+    border:none;
+}
+
+.clock-label, .clock-time{
+    text-align: center;
+    font-size: 10px;
+    font-family: "Lato";
+    font-weight: 600;
+    line-height: 20px;
+    color:rgba(0,0,0,0.7);
+}
+
+.clock-time{
+    font-family: "Lato";
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 40px;
+    color:rgba(0,0,0,1);
+}
+
+.orange{
+    color:#ff9600;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"Barlow";
+    font-weight:800;
+}
+
+.blb-blue{
+    border-bottom:1px solid #0d6efd;
+}
+
+#competition, #competition:hover{
+    cursor:pointer;
+}
+
+#competition:hover{
+    cursor:pointer;
+    background-color: rgba(0,0,0,0.02);
+}
+
+.form-answers{
+    width:120px;
+    margin:auto !important;
+    padding-top:5px;
+}
+
+.form-question{
+    margin-top:10px;
+}
+
+/* @media (min-width: 768px) and (max-width: 991px) { */
+@media (max-width: 768px){ 
+    .clock-label-l{
+        display:none;
+    }
+    .clock-label-s{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 15px;
+        font-family: "Lato";
+        font-weight: 600;
+    }
+    .clock-time{
+        font-size:23px;
+    }
+    .rounded-start{
+        margin:auto;
+        width:160%;
+    }
+    .banner-text{
+        text-align:center;
+    }
+ }
+
+
+@media (min-width: 768px)and (max-width: 991px){
+    .rounded-start{
+        margin:auto;
+        margin-top:45%;
+        width:160%;
+    }
+    .clock-time{
+        font-size:24px;
+    }
+    .clock-label-l{
+        display:none;
+    }
+    .clock-label-s{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 15px;
+        font-family: "Lato";
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 992px){
+    .rounded-start{
+        margin:auto;
+        margin-top:30%;
+        width:160%;
+    }
+    .clock-label-s{
+        display:none;
+    }
+}
+
+@media (min-width: 1200px){
+    .rounded-start{
+        margin:auto;
+        margin-top:25%;
+        width:140%;
+    }
+}
+
+@media (min-width: 1400px){
+    .rounded-start{
+        margin:auto;
+        width:100%;
+    }
 }
