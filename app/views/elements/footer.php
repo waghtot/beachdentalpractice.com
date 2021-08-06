@@ -9,16 +9,16 @@
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
       <h5>About</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Privacy Policy</a></li>
-        <li><a class="link-secondary" href="#">FAQ</a></li>
+        <li><a class="link-secondary" href="/pp">Privacy Policy</a></li>
+        <li><a class="link-secondary" href="/faq">FAQ</a></li>
         <li><a class="link-secondary" href="#">Terms & Conditions</a></li>
       </ul>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
       <h5>Contact</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">info@beachroad.com</a></li>
-        <li><a class="link-secondary" href="#">+44 XXXX XXXX XXX</a></li>
+        <li><a class="link-secondary" href="#">info@famd.org.uk</a></li>
+        <li><a class="link-secondary" href="#">+44 7379 111 916</a></li>
       </ul>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">

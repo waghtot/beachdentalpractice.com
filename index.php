@@ -14,19 +14,39 @@
     <link href="app/views/css/spacer.css?v=<?php echo time(); ?>" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <title>beachroad</title>
+    <title>FAMD</title>
   </head>
   <body>
     <?php
       require_once('app/views/elements/menu.php');
     ?>
     <div class="container">
-        <?php 
+        <?php
+          // if(isset($_GET)){
+          //   echo "<pre>".print_r($_GET, 1)."</pre>";
+          // }
 
-          require_once('app/views/elements/bannertop.php');         
-          require_once('app/views/elements/carousel.php');
-          require_once('app/views/elements/aboutus.php');
-          require_once('app/views/elements/three_cols.php');
+          if(isset($_GET['params']) && !empty($_GET['params'])){ 
+            switch($_GET['params']){
+              case 'pp':
+                require_once('app/views/elements/privacypolicy.php');
+              break;
+              case 'faq':
+                require_once('app/views/elements/faq.php');
+              break;
+              case 'faq':
+                require_once('app/views/elements/privacypolicy.php');
+              break;
+
+            }
+
+          }else{
+            require_once('app/views/elements/bannertop.php');         
+            require_once('app/views/elements/carousel.php');
+            require_once('app/views/elements/aboutus.php');
+            require_once('app/views/elements/three_cols.php');
+            require_once('app/views/elements/contact.php');
+          }
         ?>
 
     </div>
@@ -35,6 +55,11 @@
         <?php 
             require_once('app/views/elements/footer.php');
         ?>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+          <?php // require_once('app/views/elements/privacypolicy.php'); ?>
       </div>
     </div>
       
