@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -21,13 +19,9 @@
       require_once('app/views/elements/menu.php');
     ?>
     <div class="container">
-        <?php 
-
-          require_once('app/views/elements/bannertop.php');         
-          require_once('app/views/elements/carousel.php');
-          require_once('app/views/elements/aboutus.php');
-          require_once('app/views/elements/three_cols.php');
-        ?>
+      <?php
+        require_once('app/config/routing.php');
+      ?>
 
     </div>
     <div class="container-fluid">
