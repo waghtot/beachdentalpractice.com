@@ -9,9 +9,9 @@
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
       <h5>About</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Privacy Policy</a></li>
-        <li><a class="link-secondary" href="#">FAQ</a></li>
-        <li><a class="link-secondary" href="#">Terms & Conditions</a></li>
+        <li><a class="link-secondary" href="/privacy_policy">Privacy Policy</a></li>
+        <li><a class="link-secondary" href="/frequently_asked_questions">FAQ</a></li>
+        <li><a class="link-secondary" href="/terms_and_conditions">Terms & Conditions</a></li>
       </ul>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
