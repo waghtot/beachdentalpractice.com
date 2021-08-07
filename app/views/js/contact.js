@@ -6,11 +6,28 @@ $('.contact-submit').on('click', function(){
         phone: $('#phone').val(),
         enquiry: $('#enquiry').val(),
     }
-    console.log(contact);
 
-    swal.fire({
-        title: 'hurra',
-        text: 'someone clicked button',
-        icon: 'success',
-    })
+    sendemail(contact);
+
 });
+
+var sendemail =  function(e){
+
+    $.ajax ({
+      type: "post",
+      dataTyhpe: 'json',
+      url: "/app/controllers/email.php",
+      data: e
+    }).done(function(res){
+      var e = JSON.parse(res);
+      if(e.code == '6000'){
+        swal.fire('Success', 'Your message has been sent successfully', 'success').then(function(){
+          location.reload();
+        });
+      }else{
+        swal.fire('info', 'There was a problem down there', 'info').then(function(){
+          location.reload();
+        });
+      }
+    });
+  }

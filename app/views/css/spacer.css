@@ -26,3 +26,8 @@
 .border-top{
     border-top:1px solid #ff9600 !important;
 }
+
+
+.form-spacer{
+    margin:10px 0px 10px 0px;
+}
