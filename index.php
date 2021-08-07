@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -21,33 +19,9 @@
       require_once('app/views/elements/menu.php');
     ?>
     <div class="container">
-        <?php
-          // if(isset($_GET)){
-          //   echo "<pre>".print_r($_GET, 1)."</pre>";
-          // }
-
-          if(isset($_GET['params']) && !empty($_GET['params'])){ 
-            switch($_GET['params']){
-              case 'pp':
-                require_once('app/views/elements/privacypolicy.php');
-              break;
-              case 'faq':
-                require_once('app/views/elements/faq.php');
-              break;
-              case 'faq':
-                require_once('app/views/elements/privacypolicy.php');
-              break;
-
-            }
-
-          }else{
-            require_once('app/views/elements/bannertop.php');         
-            require_once('app/views/elements/carousel.php');
-            require_once('app/views/elements/aboutus.php');
-            require_once('app/views/elements/three_cols.php');
-            require_once('app/views/elements/contact.php');
-          }
-        ?>
+      <?php
+        require_once('app/config/routing.php');
+      ?>
 
     </div>
     <div class="container-fluid">
