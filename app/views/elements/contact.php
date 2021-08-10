@@ -23,7 +23,8 @@
 
         </div>
         <div class="col-6">
-                Few words encouraging visitors to leave messages.
+        <h5>We’d love to hear from you!</h5>
+        <p>You can also email us at <a href="mailto:info@beachdentalpractice.com">info@beachdentalpractice.com</a></p>
         </div>
 </div>
 <script src="app/views/js/contact.js?v=<?php echo time(); ?>"></script>

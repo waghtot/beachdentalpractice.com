@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="app/views/css/bdp.css?v=<?php echo time(); ?>" rel="stylesheet">
     <link href="app/views/css/spacer.css?v=<?php echo time(); ?>" rel="stylesheet">
+    <link href="app/views/css/gallery.css?v=<?php echo time(); ?>" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <title>FAMD</title>
@@ -24,16 +25,12 @@
       ?>
 
     </div>
+
     <div class="container-fluid">
       <div class="row border-top vspace-4000">
         <?php 
             require_once('app/views/elements/footer.php');
         ?>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-          <?php // require_once('app/views/elements/privacypolicy.php'); ?>
       </div>
     </div>
       
