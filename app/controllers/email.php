@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST)){
-    $to      = 'info@famd.org.uk';
+    $to      = 'Info@beachdentalpractice.com';
     $subject = 'Customer Enquiry';
 
     if(isset($_POST['phone']) && !empty($_POST['phone'])){

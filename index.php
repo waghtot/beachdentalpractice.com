@@ -13,7 +13,7 @@
     <link href="app/views/css/gallery.css?v=<?php echo time(); ?>" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <title>FAMD</title>
+    <title>Beach Dental Practice</title>
   </head>
   <body>
     <?php

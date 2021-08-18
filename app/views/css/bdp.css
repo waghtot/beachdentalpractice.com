@@ -13,6 +13,7 @@
 
 .uppercase, .clock-label{
     text-transform: uppercase;
+    font-weight:300;
 }
 
 .no-border{
@@ -28,12 +29,23 @@
     color:rgba(0,0,0,0.7);
 }
 
-.clock-time{
+
+
+.clock-time, .clock-label-l{
     font-family: "Lato";
-    font-weight: 100;
+    font-weight: 300;
     font-size: 40px;
     line-height: 40px;
     color:rgba(0,0,0,1);
+}
+
+.clock-label-l{
+    text-align: center;
+    font-size: 10px;
+    font-family: "Lato";
+    font-weight: 600;
+    line-height: 20px;
+    color:rgba(0,0,0,0.7);
 }
 
 .orange{
@@ -81,9 +93,9 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar-brand{
     font-family: "Barlow";
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight:600;
-    font-size:40px;
+    font-size:30px;
     line-height:20px;
 }
 
