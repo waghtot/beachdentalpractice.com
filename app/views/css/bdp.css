@@ -29,7 +29,13 @@
     color:rgba(0,0,0,0.7);
 }
 
-
+.bdp{
+    background-size: 25px;
+    background-image:url(../img/bdp.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    text-indent:35px;
+}
 
 .clock-time, .clock-label-l{
     font-family: "Lato";
@@ -53,8 +59,8 @@
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family:"Barlow";
-    font-weight:800;
+    font-family:"Barlow" !important;
+    font-weight:800 !important;
 }
 
 .blb-blue{
@@ -67,7 +73,7 @@ h1, h2, h3, h4, h5, h6{
 
 #competition:hover{
     cursor:pointer;
-    background-color: rgba(0,0,0,0.02);
+    /* background-color: rgba(0,0,0,0.02); */
 }
 
 .form-answers{

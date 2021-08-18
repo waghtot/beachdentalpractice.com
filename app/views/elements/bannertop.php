@@ -1,7 +1,7 @@
 <div class="card no-border vspace-2020" id="competition" >
   <div class="row">
     <div class="col-1">
-      <img src="app/views/img/golden_cup.svg" class="rounded-start d-none d-md-block" alt="goldencup">
+      <img src="app/views/img/10_ticket.svg" class="rounded-start d-none d-md-block" alt="goldencup">
     </div>
     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
       <div class="card-body banner-text">
