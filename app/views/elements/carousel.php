@@ -17,7 +17,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/app/views/img/001.jpg" class="d-block w-100" alt="image1">
+            <img src="/app/views/img/001.png" class="d-block w-100" alt="image1">
             <div class="carousel-caption d-none d-md-block">
               <h5>Practicec front</h5>
             </div>
