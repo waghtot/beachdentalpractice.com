@@ -1,9 +1,9 @@
-<div class="card">
+<!-- <div class="card"> -->
     <!-- <img src="app/views/img/img.jpg" alt="FAMD" class="img-thumbnail"> -->
-    <div class="card-body">
-      <h5 class="card-title">Practice</h5>
-      <p class="card-text">
-          <ul>
+    <!-- <div class="card-body"> -->
+      <!-- <h5 class="card-title">Practice</h5> -->
+      <!-- <p> -->
+          <ul style="color:#fff;">
             <li>Surgeries: Two</li>
             <li>Newly fitted surgeries, kitchen, toilet, waiting room and reception</li>
             <li>Single Story Brick Building with big frontage</li>
@@ -18,7 +18,7 @@
             <li>Current Status: Non-Trading</li>
             <li>Business rate: Nil</li>
         </ul>
-      </p>
+      <!-- </p> -->
       <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-    </div>
-</div>
+    <!-- </div> -->
+<!-- </div> -->

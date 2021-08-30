@@ -1,8 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 *{
     font-family:"Lato";
     font-weight: 300;
+}
+
+.section_title, .section_title_white{
+    font-family:"Dosis" !important;
+    font-weight: 200 !important;
+    font-size: 350%;
+    line-height:250%;
+    color:#ff9600;
+    text-transform: uppercase;
+}
+
+.section_title_white{
+    color:#fff;
+}
+
+.bottom-space{
+    padding-bottom:90px;
+}
+
+.aut{
+    font-size:150%;
+}
+
+.carousel-background{
+    /* background-color:rgba(0,158,226,1); */
+    background-color: #002ca5;
+}
+
+.light-background{
+    background-color: #002ca5;
+}
+
+.img-thumbnail{
+    border:none;
 }
 
 .navbar-bdp{

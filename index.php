@@ -19,12 +19,11 @@
     <?php
       require_once('app/views/elements/menu.php');
     ?>
-    <div class="container">
+    <!-- <div class="container-fluid"> -->
       <?php
         require_once('app/config/routing.php');
       ?>
-
-    </div>
+    <!-- </div> -->
 
     <div class="container-fluid">
       <div class="row border-top vspace-4000">
