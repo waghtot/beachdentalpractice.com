@@ -28,7 +28,10 @@
 
 .carousel-background{
     /* background-color:rgba(0,158,226,1); */
-    background-color: #002ca5;
+    /* background-color: #002ca5; */
+    background-color: rgba(0,0,0,0.3);
+    border-top:2px solid #002ca5;
+    border-bottom:2px solid #002ca5; 
 }
 
 .light-background{
