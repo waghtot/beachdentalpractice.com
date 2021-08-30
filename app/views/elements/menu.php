@@ -9,11 +9,11 @@
                 <a class="nav-link" href="/practice">practice</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contact">contact us</a>
+                <a class="nav-link" href="#contact">contact us</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <button class="btn btn-secondary">Log in</button>
-            </li>
+            </li> -->
         </ul>
     </div>
 </nav>

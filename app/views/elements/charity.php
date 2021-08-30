@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card card-transparent">
     <img src="app/views/img/charity.png" alt="FAMD" class="img-thumbnail">
     <div class="card-body">
       <h5 class="card-title">Charity</h5>

@@ -1,5 +1,5 @@
 <div class="container">
-        <div calss="row">
+        <div calss="row" id="contact">
                 <div class="">
                         <h1 class="section_title">Contact</h1>
                 </div>

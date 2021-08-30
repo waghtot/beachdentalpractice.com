@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="card no-border vspace-2020" id="competition" >
+  <div class="card no-border" id="competition" >
     <div class="row">
       <div class="col-1">
         <img src="app/views/img/10_ticket.svg" class="rounded-start d-none d-md-block" alt="goldencup">
@@ -47,7 +47,10 @@
                 <span class="clock-label-s">S</span>
               </div>
           </div>
-
+          <div class="row">
+            <button class="btn btn-primary btn-bold">ENTER THE COMPETITION</button>
+            <!-- <img src="app/views/img/button.svg" class="img-fluid" alt="enter the competition">  -->
+          </div>
         </div>
       </div>
     </div>
@@ -55,7 +58,7 @@
       <div class="col-lg-2 col-md-1">
       </div>
       <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 text-center">
-        <img src="app/views/img/button.svg" class="img-fluid" alt="enter the competition"> 
+
       </div>
       <div class="col-lg-2 col-md-1">
       </div>

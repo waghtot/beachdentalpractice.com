@@ -3,7 +3,7 @@
     <!-- <div class="card-body"> -->
       <!-- <h5 class="card-title">Practice</h5> -->
       <!-- <p> -->
-          <ul style="color:#fff;">
+          <ul class="practice-features">
             <li>Surgeries: Two</li>
             <li>Newly fitted surgeries, kitchen, toilet, waiting room and reception</li>
             <li>Single Story Brick Building with big frontage</li>
